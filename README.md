@@ -1,62 +1,54 @@
 # 🏥 Health Clinic Portal
 
-A full-stack Health Clinic Portal designed to simplify patient and clinic management. The application allows patients to book appointments, doctors to manage schedules, and administrators to efficiently manage users, appointments, and medical records through a secure and user-friendly interface.
+A full-stack Java web application that helps patients and healthcare staff manage appointments, doctors, and patient records through a simple and user-friendly interface.
 
 ---
 
-## 🚀 Features
+## 📌 Features
 
 ### 👨‍⚕️ Patient
-- User Registration & Login
-- Secure Authentication
+- Register and Login
 - Book Appointments
 - View Appointment History
 - Update Profile
-- View Doctor Details
 
-### 👨‍⚕️ Doctor
-- Secure Login
-- View Daily Appointments
-- Manage Appointment Status
-- Update Availability
-- View Patient Information
+### 🩺 Doctor
+- View Assigned Appointments
+- Manage Patient Records
+- Update Appointment Status
 
 ### 👨‍💼 Admin
-- Dashboard Overview
+- Secure Admin Login
 - Manage Doctors
 - Manage Patients
 - Manage Appointments
-- Manage Clinic Records
-- View Reports
+- Dashboard Overview
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React.js
 - HTML5
 - CSS3
-- JavaScript (ES6+)
-- React Router DOM
-- Axios
+- JavaScript
+- Bootstrap
 
 ### Backend
-- Node.js
-- Express.js
+- Java 17
+- Spring Boot
+- Spring MVC
+- Spring Data JPA
+- Hibernate
 
 ### Database
-- MongoDB
-- Mongoose
-
-### Authentication
-- JWT (JSON Web Token)
-- bcrypt.js
+- MySQL
 
 ### Tools
+- IntelliJ IDEA / Eclipse
+- Maven
 - Git
 - GitHub
-- VS Code
 - Postman
 
 ---
@@ -64,153 +56,89 @@ A full-stack Health Clinic Portal designed to simplify patient and clinic manage
 ## 📂 Project Structure
 
 ```
-Health-Clinic-Portal/
+HealthClinicPortal/
 │
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   ├── resources/
+│   │   └── webapp/
 │
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   ├── controllers/
-│   ├── config/
-│   ├── server.js
-│   └── package.json
-│
-└── README.md
+├── pom.xml
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## ⚙️ Installation
+## 🚀 Installation
 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/Health-Clinic-Portal.git
+git clone https://github.com/yourusername/HealthClinicPortal.git
 ```
 
-### Backend
+### Open Project
+
+- Import as Maven Project
+- Configure MySQL Database
+- Update `application.properties`
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/clinicdb
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+```
+
+### Run Application
 
 ```bash
-cd backend
-npm install
-npm start
+mvn spring-boot:run
 ```
 
-### Frontend
+Open:
 
-```bash
-cd frontend
-npm install
-npm run dev
+```
+http://localhost:8080
 ```
 
 ---
 
-## 🔑 Environment Variables
+## 📸 Modules
 
-Create a `.env` file inside the backend folder.
-
-```env
-PORT=5000
-
-MONGO_URI=Your_MongoDB_Connection_String
-
-JWT_SECRET=Your_JWT_Secret
-```
-
----
-
-## 📡 REST API
-
-### Authentication
-
-```
-POST /api/auth/register
-POST /api/auth/login
-```
-
-### Patients
-
-```
-GET /api/patients
-GET /api/patients/:id
-PUT /api/patients/:id
-```
-
-### Doctors
-
-```
-GET /api/doctors
-POST /api/doctors
-PUT /api/doctors/:id
-DELETE /api/doctors/:id
-```
-
-### Appointments
-
-```
-POST /api/appointments
-GET /api/appointments
-PUT /api/appointments/:id
-DELETE /api/appointments/:id
-```
-
----
-
-## 📸 Screenshots
-
-Add screenshots here:
-
-- 🏠 Home Page
-- 🔐 Login Page
-- 👨‍⚕️ Doctor Dashboard
-- 👤 Patient Dashboard
-- 📅 Appointment Booking
-- 🛠️ Admin Dashboard
-
----
-
-## 🔒 Security Features
-
-- JWT Authentication
-- Password Hashing using bcrypt
-- Protected Routes
-- Input Validation
-- Secure REST APIs
+- Authentication
+- Patient Management
+- Doctor Management
+- Appointment Booking
+- Medical Records
+- Admin Dashboard
 
 ---
 
 ## 📈 Future Enhancements
 
-- Online Video Consultation
-- Medical History Management
-- Prescription Management
-- Payment Gateway Integration
+- Online Payment
 - Email Notifications
-- SMS Appointment Reminder
-- Lab Report Upload
-- AI-Based Symptom Checker
-- Analytics Dashboard
+- SMS Alerts
+- Prescription Download (PDF)
+- Video Consultation
+- JWT Authentication
+- Role-Based Authorization
 
 ---
 
-## 🎯 Learning Outcomes
+## 📚 Learning Outcomes
 
-This project helped me gain practical experience in:
-
-- Full Stack Web Development
-- RESTful API Development
-- Authentication & Authorization
-- MongoDB Database Design
+- Java Full Stack Development
+- Spring Boot & Spring MVC
+- REST API Development
+- Hibernate & JPA
+- MySQL Database Integration
 - CRUD Operations
-- Role-Based Access Control
-- Responsive UI Development
-- Git & GitHub Workflow
+- MVC Architecture
+- Authentication & Authorization
+- Git Version Control
 
 ---
 
@@ -218,12 +146,12 @@ This project helped me gain practical experience in:
 
 **Avanish Singh**
 
-- GitHub: https://github.com/your-username
-- LinkedIn: https://linkedin.com/in/your-linkedin
-- Email: your-email@example.com
+GitHub: https://github.com/yourusername
+
+LinkedIn: https://linkedin.com/in/yourprofile
 
 ---
 
-## ⭐ Show Your Support
+## ⭐ If you like this project
 
-If you found this project helpful, please consider giving it a ⭐ on GitHub.
+Give this repository a ⭐ on GitHub.
