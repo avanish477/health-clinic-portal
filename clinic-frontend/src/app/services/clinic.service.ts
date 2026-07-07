@@ -59,6 +59,11 @@ export class ClinicService {
     return this.http.get<any>(`${this.baseUrl}/prescriptions/appointment/${appointmentId}`, { headers });
   }
 
+  getPatientPrescriptionHistory(patientId: number): Observable<any[]> {
+    const headers = this.getHeaders();
+    return this.http.get<any[]>(`${this.baseUrl}/prescriptions/patient/${patientId}`, { headers });
+  }
+
   downloadPrescriptionPdfUrl(prescriptionId: number): string {
     const token = localStorage.getItem('clinic_token');
     return `${this.baseUrl}/prescriptions/${prescriptionId}/download?access_token=${token}`; // Token query fallback if needed, or trigger via blob download

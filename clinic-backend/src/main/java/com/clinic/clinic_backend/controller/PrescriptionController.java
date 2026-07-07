@@ -67,6 +67,12 @@ public class PrescriptionController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
+    @GetMapping("/patient/{patientId}")
+    @PreAuthorize("hasRole('PATIENT') or hasRole('DOCTOR')")
+    public ResponseEntity<?> getPrescriptionsByPatient(@PathVariable Long patientId) {
+        return ResponseEntity.ok(prescriptionRepository.findByAppointmentPatientId(patientId));
+    }
+
     @GetMapping("/{id}/download")
     @PreAuthorize("hasRole('PATIENT') or hasRole('DOCTOR')")
     public ResponseEntity<InputStreamResource> downloadPrescriptionPdf(@PathVariable Long id) {

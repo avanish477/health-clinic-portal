@@ -1,0 +1,201 @@
+﻿Diagnose log at 2026-07-06T18:40:02Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.7.3+5fa7116896c82164996a609accd1c5ad90fe730a
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26220)
+Reading environment variables... OK
+ Variables:
+SystemDrive=C:
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+GIT_TRACE=1
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+EFC_27124_3789132940=1
+PROMPT=$P$G
+TMP=C:\Users\AVANIS~1\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE=AMD64
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Avanish singh\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin\aclocal;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Java\jdk-24\bin;C:\Program Files\dotnet\;C:\xampp\php;C:\composer;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Server 8.0;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Avanish singh\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\Avanish singh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Avanish singh\AppData\Roaming\Composer\vendor\bin;C:\Users\Avanish singh\AppData\Local\GitHubDesktop\bin;C:\Users\Avanish singh\AppData\Local\Python\bin;C:\Users\Avanish singh\AppData\Roaming\npm;C:\Users\Avanish singh\AppData\AndroidCLI
+AGY_BROWSER_WS_URL=ws://127.0.0.1:51164/devtools/browser/9bb80776-f02b-4fb5-9f49-133a228506e6
+AGY_BROWSER_ACTIVE_PORT_FILE=C:\Users\Avanish singh\AppData\Roaming\Antigravity\DevToolsActivePort
+PROCESSOR_REVISION=8c01
+ANTIGRAVITY_SOURCE_METADATA={"tool":{"conversationId":"f113a331-38cd-4887-9fc8-03b26c2f1efb", "stepIndex":356, "toolCall":{"id":"5ej8rqvl", "name":"run_command", "argumentsJson":"{\"BypassSandbox\":true,\"CommandLine\":\"code \\\"C:\\\\Users\\\\Avanish singh\\\\.gemini\\\\antigravity\\\\scratch\\\\health-clinic\\\"\",\"Cwd\":\"C:\\\\Users\\\\Avanish singh\\\\.gemini\\\\antigravity\\\\scratch\\\\health-clinic\",\"WaitMsBeforeAsync\":800,\"toolAction\":\"Opening health clinic workspace in VS Code\",\"toolSummary\":\"Open VS Code\"}", "thinkingSignature":"EvADCu0DARFNMg8eTJEVkh0Nogqaib305hnSEqPVqTEcBT7KbUrrajmP2vmH7wlHUFOy2xDOFaQfMJXAUuOKgSJXDnPlgtlNZcjX3K8lDrO1bbHMnJnbt8XsQkAAJyEkZIX0SGl1N8qXo4VfWL7SeqIBVnqYl0f1JV3nTcOLU1mK6UHspUVRXSroevDGKOxBwk/7WS7oZFq5TsmfZ6m7zgLwDNm+HdWy9IdytbfZmu/ovSJO0JT4VM9Ri63ZgDPfzBaaFhLO/6PkWVJYNgUvme/XdIxoxbGKxmkmYMiOth0Y/hBetyAUXALQo5boUd6cqRsaUfXtUyBc0l9hfbIN0abFY7Q8eK6ViwPugDoRo5uOvm8Zng/IgiiuiprLH0q3L/GpVKkO8ergoJfZagJXn1ctLzyTocU5W+OA0tPCkVA0qiHBdyHpg7lryAi+yrdydHvNWm8KZJmwA1/X77yX7xSPXx3g4qUjLHJk7iy2VS7o2Ln/9eWMBsj4poIlm6nPfBxkmVR4PamQVkfis5WsHSj/shBW43lE1GLI58gFIxQDZcc2o8vQCi+nMLtx/8Mndqk5/PidPxROADNEABvozAykhnHXB1y+I4vFDlqyATZ8uuF2/jLatRNweot8Ftar9sPGAZB5Yn8qOU+/cJDFfAodtQ==", "originalName":"run_command"}}}
+TEMP=C:\Users\AVANIS~1\AppData\Local\Temp
+USERPROFILE=C:\Users\Avanish singh
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+LOGONSERVER=\\LAPTOP-J6A45S6P
+TERM=xterm-256color
+USERNAME=anishsingh
+SystemRoot=C:\WINDOWS
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_5704_JACUBUKJECMTXZQB
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+ANTIGRAVITY_AGENT=1
+PLINK_PROTOCOL=ssh
+PATH=C:/Users/Avanish singh/.gemini/antigravity/bin;C:\Users\Avanish singh\AppData\Roaming\Antigravity\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin\aclocal;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Java\jdk-24\bin;C:\Program Files\dotnet\;C:\xampp\php;C:\composer;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Server 8.0;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Avanish singh\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\Avanish singh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Avanish singh\AppData\Roaming\Composer\vendor\bin;C:\Users\Avanish singh\AppData\Local\GitHubDesktop\bin;C:\Users\Avanish singh\AppData\Local\Python\bin;C:\Users\Avanish singh\AppData\Roaming\npm;C:\Users\Avanish singh\AppData\AndroidCLI;c:\Users\Avanish singh\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts
+OneDrive=C:\Users\Avanish singh\OneDrive
+EFC_27124_1262719628=1
+CommonProgramFiles=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+ANTIGRAVITY_LS_ADDRESS=localhost:58798
+VSCODE_JAVA_EXEC=C:\Program Files\Java\jdk-21.0.10\bin\java
+ProgramData=C:\ProgramData
+LANG=en_US.UTF-8
+HOMEPATH=\Users\Avanish singh
+EFC_27124_4126798990=1
+COMPUTERNAME=LAPTOP-J6A45S6P
+VSCODE_INJECTION=1
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+ANTIGRAVITY_TRAJECTORY_ID=7425e9e7-f3d5-4e15-9976-45259b5c2af4
+EFC_27124_1592913036=1
+VSCODE_JDWP_ADAPTER_ENDPOINTS=c:\Users\Avanish singh\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\.noConfigDebugAdapterEndpoints\endpoint-c057d35a6d2b3a62.txt
+SESSIONNAME=Console
+EFC_27124_2775293581=1
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+EFC_27124_2283032206=1
+windir=C:\WINDOWS
+GIT_TRACE2_PARENT_SID=923990df-b1bf-4d77-a4bb-a0cf4d89e96a
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+CHROME_DEVTOOLS_MCP_JS=C:\Users\Avanish singh\AppData\Local\Programs\antigravity\resources\app.asar.unpacked\node_modules\chrome-devtools-mcp\build\src\bin\chrome-devtools-mcp.js
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+HOME=C:\Users\Avanish singh
+ANTIGRAVITY_CSRF_TOKEN=52620195-bc49-4690-ae9d-746d5a00e3d8
+PSModulePath=C:\Users\Avanish singh\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+TMPDIR=C:\Users\AVANIS~1\AppData\Local\Temp
+APPDATA=C:\Users\Avanish singh\AppData\Roaming
+USERDOMAIN=LAPTOP-J6A45S6P
+PROCESSOR_LEVEL=6
+LOCALAPPDATA=C:\Users\Avanish singh\AppData\Local
+TERM_PROGRAM_VERSION=1.127.0
+USERDOMAIN_ROAMINGPROFILE=LAPTOP-J6A45S6P
+COLORTERM=truecolor
+PUBLIC=C:\Users\Public
+TERM_PROGRAM=vscode
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\Avanish singh\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\Avanish singh\AppData\Local\Temp\10e94beeacc088a67ae46617'... OK
+Reading from temporary file 'C:\Users\Avanish singh\AppData\Local\Temp\10e94beeacc088a67ae46617'... OK
+Deleting temporary file 'C:\Users\Avanish singh\AppData\Local\Temp\10e94beeacc088a67ae46617'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\Avanish singh
+UserDataDirectoryPath: C:\Users\Avanish singh\.gcm
+GetCurrentDirectory(): C:\Users\Avanish singh\.gemini\antigravity\scratch\health-clinic
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:51878/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.54.0.windows.1'
+Locating current repository...Git repository at 'C:/Users/Avanish singh/.gemini/antigravity/scratch/health-clinic/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/Avanish singh/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/Avanish singh/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/Avanish singh/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/Avanish singh/.gitconfig	filter.lfs.required=true
+file:C:/Users/Avanish singh/.gitconfig	user.name=Avanish singh
+file:C:/Users/Avanish singh/.gitconfig	user.email=avanishsinghbxr0707@gmail.com
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/avanish477/health-clinic-portal.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\Avanish singh\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\Avanish singh\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
